@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+package-lock.json
+
+npm-debug.log*
+
+tools
+smartprogram_dev
+node_modules
+gulpfile.js
+.npmrc
+.gitignore
+.editorconfig
