@@ -1,0 +1,3 @@
+<view class="custom">
+    <view class="custom-text">{{name}} 自定义组件 </view>
+</view>

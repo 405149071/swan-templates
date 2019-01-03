@@ -1,0 +1,37 @@
+{
+  "name": "swan-custom-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "watch": "gulp watch",
+    "clean": "gulp clean"
+  },
+  "smartprogram": "src",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swan-team/swan-templates.git"
+  },
+  "babel": {
+    "babelrc": false,
+    "presets": [
+      "env",
+      {
+        "target": {
+          "node": "current"
+        },
+        "loose": false
+      }
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "fs-extra": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0"
+  }
+}

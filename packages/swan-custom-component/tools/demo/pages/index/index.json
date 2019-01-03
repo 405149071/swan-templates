@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "智能小程序官方组件",
+    "usingComponents": {
+        "test": "../../components/test/index"
+    }
+}
